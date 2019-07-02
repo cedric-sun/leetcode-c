@@ -1,0 +1,3 @@
+WNO_OPTIONS=-Wno-missing-prototypes -Wno-sign-conversion -Wno-missing-variable-declarations
+default:
+	clang -xc -std=c99 -Weverything -Werror -fno-builtin -O0 -ggdb3 -fsanitize=address -fno-omit-frame-pointer ${WNO_OPTIONS} test.c
