@@ -1,0 +1,1 @@
+../gcc_makefile_template
